@@ -11,6 +11,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 
 </head>
 <body>
@@ -34,10 +35,10 @@
                 <p>
                     <span>Đặt Ngay</span>
                     <span>
-                        <img src="web_photos/bike.png" alt="">
+                        <img id="bike" src="web_photos/bike.png" alt="">
                         Giao Hàng</span>
                     <span>
-                        <img src="web_photos/bag.png" alt="">
+                        <img id="bag" src="web_photos/bag.png" alt="">
                         hoặc Mang đi</span>
                     <button id="myButton">Bắt đầu đặt hàng</button>
                 </p>
@@ -50,6 +51,7 @@
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -62,7 +64,10 @@
                         <img src="web_photos/slide3.png" alt="Slide 3">
                     </div>
                     <div class="carousel-item">
-                        <img src="web_photos/slide4.png" alt="Slide 3">
+                        <img src="web_photos/slide4.png" alt="Slide 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="web_photos/slide5.png" alt="Slide 5">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -153,8 +158,93 @@
                     </div>
                 </div>
             </div>
+            <div class="install">
+                <img id="banner" src="web_photos/banner.jpg" alt="">
+                <div class="btn" >
+                    <img id="google_btn" src="web_photos/btn_google.png" alt="">
+                    <img id="appstore_btn" src="web_photos/btn_appstore.png" alt="">
+                </div>
+            </div>
+
         </div>
-        <div id="Footer"></div>
+            <div id="Footer">
+                <div id="Footer_Left">
+                   
+                    <div class="Footer_Left_Tab" name="">
+        
+                        <div>
+                            <h6>Danh Mục Món Ăn</h6>
+                        </div>
+                        <div class="Footer_Left_Item">Món Mới</div>
+                        <div class="Footer_Left_Item">Combo 1 Người</div>
+                        <div class="Footer_Left_Item">Combo Nhóm</div>
+                        <div class="Footer_Left_Item">Gà Rán - Gà Quay</div>
+                        <div class="Footer_Left_Item">Burger - Cơm - Mì Ý</div>
+                        <div class="Footer_Left_Item">Thức Ăn Nhẹ</div>
+                        <div class="Footer_Left_Item">Thức Uống & Tráng Miệng</div>
+        
+        
+                    </div>
+                    <div class="Footer_Left_Tab" name="">
+                        <div>
+                            <h6>Về KFC</h6>
+                        </div>
+                        <div class="Footer_Left_Item">Câu Chuyện của Chúng Tôi</div>
+                        <div class="Footer_Left_Item">Tin Khuyến Mãi</div>
+                        <div class="Footer_Left_Item">Tin tức KFC</div>
+                        <div class="Footer_Left_Item">Tuyển dụng</div>
+                        <div class="Footer_Left_Item">Đặt Tiệc Sinh Nhật</div>
+
+                    </div>
+                    <div class="Footer_Left_Tab" name="">
+                        <div>
+                            <h6>Liên hệ KFC</h6>
+                        </div>
+                        <div class="Footer_Left_Item">Theo dõi đơn hàng</div>
+                        <div class="Footer_Left_Item">Hệ Thống Nhà Hàng</div>
+                        <div class="Footer_Left_Item">Liên Hệ KFC</div>
+                    </div>
+                    <div class="Footer_Left_Tab" name="">
+                        <div>
+                            <h6>Chính sách</h6>
+                        </div>
+                        <div class="Footer_Left_Item">Chính sách hoạt động</div>
+                        <div class="Footer_Left_Item">Chính sách và quy định</div>
+                        <div class="Footer_Left_Item">Chính sách bảo mật thông tin</div>
+                    </div>
+                    <div id="install_app">
+                        <h6>Download App</h6>
+                        <img id="appstore_btn2" src="web_photos/appstore_btn2.png" alt="">
+                        <img id="google_btn2" src="web_photos/google_btn2.png" alt="">
+                        </div>
+                    </div>
+            </div>
+            <div class="social_link">
+                <p>Copyright © 2023 KFC Vietnam</p>
+                <div class="icon">
+                    <div class="social_icon">
+                        <a href="https://www.facebook.com/KFCVietnam/">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="social_icon">
+                        <a href="https://www.instagram.com/kfc_vietnam/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="social_icon">
+                        <a href="https://www.youtube.com/user/KFCVietnam2011">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="social_icon">
+                        <a href="https://twitter.com/kfc_vietnam">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
         <script src="script.js"></script>
     </div>
 </body>
