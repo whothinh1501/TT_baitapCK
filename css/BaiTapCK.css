@@ -114,9 +114,10 @@
 #menu_food{
     width: 1145px;
     height: 1300px;
-    margin-left: 200px;
+    margin-left: 13%;
     margin-top: 55px;
-    font-family: Arial, copperplate, sans-serif ; font-style:inherit;
+    font-family: Arial, copperplate, sans-serif; 
+    font-style:inherit;
     
 }
 
@@ -292,15 +293,16 @@
 
 #Footer_Left {
     display: flex;
-    margin: 60px 150px;
+    margin-top: 60px;
+    margin-left: 12%;
 }
 
 .Footer_Left_Tab {
     display: flex;
     flex-direction: column;
     height: 300px;
-    width: 200px;
-    padding: 20px;
+    width: 250px;
+    /* padding: 12px; */
 }
 .Footer_Left_Tab h6 {
     font-weight: bold;
@@ -316,6 +318,7 @@
 }
 #install_app {
     margin-top: 23px;
+    margin-left: 20px;
 }
 #install_app h6 {
     font-weight: bold;
@@ -327,10 +330,12 @@
     width: 165px;
     height: 49px;
     margin-right: 5px;
+    
  }
 #appstore_btn2 {
     width: 148px;
     height: 48px;
+    padding-bottom: 10px;
  }
  .social_link {
     display: inline-block;
