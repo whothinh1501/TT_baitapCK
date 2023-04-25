@@ -1,0 +1,60 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+}
+#Header_1{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    
+    background-color: white;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#menu:hover {
+    
+    text-decoration: underline;
+}
+#promotion:hover {
+    
+    text-decoration: underline;
+}
+#stores:hover {
+    
+    text-decoration: underline;
+}
+
+
+ #Header_1 #Header_left_1{
+    margin-left: 710px;
+ }
+
+ #Header_left_1 #logo_kfc{
+    width: 90px;
+    height: 35px;
+    margin-top: 10px;
+ }
+
+ #Header_right_1{
+    display: flex;
+    width: 50%;
+    height: 80px;
+}
+
+#Header_right_1 div {
+    font-size: 14px;
+    font-family: Arial, copperplate, sans-serif ;
+    font-style:inherit;
+    margin-left: 400px;
+    margin-top: 25px;
+    margin-right: 35px;
+    font-weight: bold;
+}
+
+ #Header_right_1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
