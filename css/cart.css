@@ -1,15 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .cart {
     display: flex;
     flex-direction: column;
 }
 #Header_1{
     display: flex;
-    height: 60px;
+    height: 70px;
     width: 100%;
-    
     background-color: white;
     text-align: center;
     border-bottom: 1px solid black;
+    position: fixed;
 }
 
 #menu:hover {
@@ -26,11 +30,11 @@
 }
 
 
- #Header_1 #Header_left_1{
-    margin-left: 710px;
+ #Header_1 #Header_center_1{
+    margin-left: 370px;
  }
 
- #Header_left_1 #logo_kfc{
+ #Header_center_1 #logo_kfc{
     width: 90px;
     height: 35px;
     margin-top: 10px;
@@ -46,7 +50,7 @@
     font-size: 14px;
     font-family: Arial, copperplate, sans-serif ;
     font-style:inherit;
-    margin-left: 400px;
+    margin-left: 440px;
     margin-top: 25px;
     margin-right: 35px;
     font-weight: bold;
@@ -56,5 +60,80 @@
     width: 30px;
     height: 30px;
     margin-top: 15px;
-    margin-left: 10px;
+}
+#Header_1 #Header_left_1{
+    margin-left: 175px;
+}
+#Header_left_1 button{
+    width: 160px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#content{
+    margin-left: 180px;
+    margin-top: 70px;
+}
+#three_gach{
+    width: 40px;
+    height: 23px;
+    margin-bottom: 5px;
+}
+
+#font_text{
+    font-size: 27px ;
+    font-weight:700;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 38px;
+
+}
+
+
+
+.footer{
+    height: 140px;
+    background-color: #202124;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+#footer_commet{
+    margin-top: 50px;
+    color: #ababab;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.footer img{
+    margin-left: 735px;
+    width: 60px;
+    height: 35px;
+}
+
+#center_logo{
+    display: flex;
+    margin-top: 15px;
+    width: 1175px;
+    height: 595px;
+    position: relative;
+}
+
+#btn-center{
+    position: absolute;
+    left: 235px;
+    bottom: 163px;
+    width: 190px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 17px;
 }
