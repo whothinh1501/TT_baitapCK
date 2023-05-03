@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+}
+#signin {
+    display: flex;
+    flex-direction: column;
+}
+#Header{
+    display: flex;
+    height: 105px;
+    width: 100%;
+    position:fixed;
+    background-color: white;
+    text-align: center;
+    border-bottom: 1px solid black;
+    z-index: 999;
+}
+#Header_left{
+    display: flex;
+    width: 42%;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 160px;
+    font-size: 80px;
+}
+#menu:hover {
+    
+    text-decoration: underline;
+}
+#promotion:hover {
+    
+    text-decoration: underline;
+}
+#stores:hover {
+    
+    text-decoration: underline;
+}
+#Header_left img {
+    width: 80px;
+    height: 80px;
+}
+#Header_left div {
+    font-size: 17px;
+    font-family: Arial, copperplate, sans-serif ; font-style:inherit;
+    margin-left: 35px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+#Header_right{
+    display: flex;
+    width: 50%;
+    height: 80px;
+}
+#Header_right div {
+    font-size: 14px;
+    font-family: Arial, copperplate, sans-serif ;
+    font-style:inherit;
+    margin-left: 355px;
+    margin-top: 45px;
+    font-weight: bold;
+}
+#Header_right img {
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+#signin_section {
+    padding-top: 104px;;
+    justify-content: center;
+    display: flex;
+}
+#signin_banner {
+    height: 569px;
+}
+#input_section {
+    padding: 60px;
+    display: block;
+}
+#input_section h1 {
+    /* font-weight: 900; */
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input_group input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 520px;
+    padding-bottom: 33px;
+    padding-top: 20px;
+}
+#forgot p {
+    text-align: right;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#forgot p:hover {
+    text-align: right;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.signin_button button {
+    border-radius: 50px;
+    width: 520px;
+    height: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    background: #28a745;
+    border: none;
+}
+#signup {
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#signup b {
+    text-decoration: underline;
+}
+#Footer {
+    display: flex;
+    color: white;
+    background-color: #202124;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#Footer_Left {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 12%;
+}
+
+.Footer_Left_Tab {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    /* padding: 12px; */
+}
+.Footer_Left_Tab h6 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+
+.Footer_Left_Item {
+    color: #ababab;
+    font-size: 0.9rem;
+    margin: 0 0px 6px;
+
+}
+#install_app {
+    margin-top: 23px;
+    margin-left: 20px;
+}
+.install_app h6 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    
+}
+
+#google_btn2 {
+    width: 165px;
+    height: 49px;
+    margin-right: 5px;
+    
+ }
+#appstore_btn2 {
+    width: 148px;
+    height: 48px;
+    padding-bottom: 10px;
+ }
