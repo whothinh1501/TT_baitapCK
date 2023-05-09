@@ -26,7 +26,8 @@
             </div>
             <div id="Header_right">
                 <div>English</div>
-                <img id="sign_in" onclick="window.location.href='signin.html'" src="web_photos/logo2.png" alt="sign-in">
+                <!-- <img id="sign_in" onclick="window.location.href='signin.html'" src="web_photos/logo2.png" alt="sign-in"> -->
+                <img src="web_photos/logo2.png" id="signin-icon">
                 <img id="cart" onclick="window.location.href='cart.html'" src="web_photos/logo3.png" alt="cart">
                 <img id="popup_menu" src="web_photos/logo4.png" alt="popup_menu">
             </div>
@@ -246,7 +247,48 @@
                     </div>
                 </div>
             </div>
-        <script scr="script.js"></script>
+            <!-- Modal đăng nhập -->
+            <div id="signin-modal" class="modal">
+            <div class="modal-content">
+                <!-- <span class="close">&times;</span> -->
+                <div id="input_section">
+                    <span class="close">&times;</span>
+                    <h1>Đăng nhập</h1>
+                    <div class="input_group">
+                        <input type="text" placeholder="Địa chỉ email của bạn *">
+                        <input type="password" placeholder="Mật khẩu *">
+                    </div>
+                    <div id="forgot">
+                        <p>Bạn quên mật khẩu?</p>
+                    </div>
+                    <div class="signin_button">
+                        <button onclick="window.location.href='signin.html'">Đăng nhập</button>
+                    </div>
+                    <div id="signup">
+                        <p>Bạn chưa có tài khoản? </p>
+                        <b>Đăng ký</b>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        <script>
+            // Lấy tham chiếu đến icon Signin và Modal đăng nhập
+        const signinIcon = document.getElementById("signin-icon");
+        const signinModal = document.getElementById("signin-modal");
+
+        
+        signinIcon.addEventListener("click", function() {
+        signinModal.style.display = "block"; // Hiển thị Modal khi click vào icon Signin
+        });
+
+        
+        const closeBtn = signinModal.querySelector(".close");
+        closeBtn.addEventListener("click", function() {
+        signinModal.style.display = "none"; // Ẩn Modal khi click vào nút đóng
+        });
+
+        </script>
     </div>
 </body>
 </html>

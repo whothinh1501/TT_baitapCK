@@ -14,20 +14,9 @@
     text-align: center;
     border-bottom: 1px solid black;
     position: fixed;
+    z-index: 999;
 }
 
-#menu:hover {
-    
-    text-decoration: underline;
-}
-#promotion:hover {
-    
-    text-decoration: underline;
-}
-#stores:hover {
-    
-    text-decoration: underline;
-}
 
 
  #Header_1 #Header_center_1{
@@ -74,6 +63,18 @@
     border: 1px solid black;
     margin-top: 10px;
     margin-bottom: 15px;
+}
+#Header_left_1 button:hover {
+    width: 160px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: rgb(212, 7, 7);
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color:#fff; 
 }
 #content{
     margin-left: 180px;
